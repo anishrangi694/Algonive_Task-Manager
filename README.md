@@ -1,16 +1,48 @@
-# React + Vite
+📝 React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Task Manager App built using React.js and Tailwind CSS.
+It allows you to add, edit, delete, and filter tasks. You can also mark tasks as completed and see reminders for upcoming ones.
 
-Currently, two official plugins are available:
+🚀 Features
+   ✅ Add, edit, and delete tasks
+   📅 Reminder highlight for tasks due within 24 hours
+   🔄 Toggle between completed and pending tasks
+   🧭 Filter tasks (All / Completed / Pending)
+   🎨 Styled using Tailwind CSS for a clean, responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Project Structure
+task-manager/
+├── src/
+│   ├── components/
+│   │   ├── TaskItem.jsx
+│   │   ├── FilterBar.jsx
+│   │   ├── TaskForm.jsx
+│   │   ├── TaskList.jsx
+│   │   ├── Reminder.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── public/
+│   └── react.svg
+└── package.json
 
-## React Compiler
+🖌️ Styling
+   All components are styled using Tailwind CSS.
+   You can customize colors, spacing, or animations in the tailwind.config.js file.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+##images
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/528f692e-4203-47f2-9bce-2a8f5f871cb4" />
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/0792d200-7124-40b7-a461-e804d1ab95e4" />
+<img width="1917" height="863" alt="image" src="https://github.com/user-attachments/assets/6ca1ed29-f8f2-49e5-88a8-ed2fbaeff5c5" />
+<img width="1919" height="856" alt="image" src="https://github.com/user-attachments/assets/ff64cc28-44b8-46e8-8b1d-57654ebd4f3e" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+🧑‍💻 Author
+   Manish Rangi
+   Built as a React project using modern front-end tools and simple UI design.
+
+
+
+
